@@ -1,0 +1,43 @@
+/* General Page Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Navbar */
+  nav {
+    margin-bottom: 30px;
+  }
+  nav a {
+    color: rgb(249, 249, 249);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Profile Image */
+  img {
+    border-radius: 50%;
+    margin: 20px 0;
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: rgba(8, 49, 60, 0.492);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Glass Effect (Glassmorphism) */
